@@ -1,0 +1,60 @@
+body {margin: 0;background-color: #b9b5a4;font-family: Georgia, serif;color: #160821;
+}
+header {padding-top: 40px;text-align: center;
+}
+h1 {display: inline-block;margin: 0 0 22px;padding: 12px 45px;background-color: #5f775b;color: #f4caca;font-size: 48px;border-radius: 28px;font-weight: bold;
+}
+nav {width: 90%;margin: 0 auto;padding: 8px 0 12px;background-color: #9da394;border-radius: 28px;font-size: 38px;font-weight: bold;
+}
+nav span,
+nav a {margin: 0 45px;
+}
+nav a {color: #160821;text-decoration: none;
+}
+nav a:hover {text-decoration: underline;
+}
+main {display: flex;gap: 20px;padding: 22px 32px;align-items: flex-start;
+}
+.about-box {width: 310px;min-height: 240px;padding: 25px;background-color: #9da394;border-radius: 28px;
+}
+.about-box h2 {margin: 0 0 12px;text-align: center;font-size: 22px;
+}
+.about-box p {margin: 0;font-size: 16px;font-weight: bold;line-height: 1.1;
+}
+.image-box {flex: 1;border-radius: 10px;overflow: hidden;
+}
+.image-box img {width: auto;height: auto;display: block;border-radius: 28px;
+}
+
+
+/* CONTACT PAGE */
+.contact-header {background-color: #647d5c;padding-bottom: 30px;
+}
+.home-button {display: inline-block;margin-top: 0;padding: 10px 32px;background-color: #354232;color: white;text-decoration: none;font-size: 22px;font-weight: bold;
+}
+.home-button:hover {opacity: 0.9;
+}
+.contact-title {padding: 20px 24px;color: white;
+}
+.contact-title h1 {background: none;color: white;padding: 0;margin-bottom: 10px;font-size: 54px;
+}
+.contact-title p {font-size: 18px;margin-bottom: 18px;
+}
+.contact-info {display: flex;justify-content: space-around;text-align: center;color: white;padding: 20px;
+}
+.info-box h2 {font-size: 26px;margin-bottom: 10px;
+}
+.info-box p {font-size: 18px;line-height: 1.4;
+}
+.contact-main {display: flex;justify-content: space-between;align-items: flex-start;padding: 0;gap: 40px;
+}
+.map-section {width: 50%;
+}
+.map-section img {width: 100%;display: block;
+}
+.address-box {width: 270px;background-color: #647d5c;color: white;padding: 25px;margin: 30px auto;text-align: center;
+}
+.address-box h2 {font-size: 40px;margin-top: 0;margin-bottom: 20px;
+}
+.address-box p {font-size: 20px;line-height: 1.5;margin-bottom: 22px;
+}
